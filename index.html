@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <title>Happy Birthday</title>
+   <link rel="stylesheet" href="styles.css">
+   <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500; 600;700&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="adwaitlogo.jpg" type="image/jpg">
+</head>
+
+<body>
+    <!-- Floating Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="typewriter" id="typewriter">Happy Birthday, Pichoda 👻🥰!</h1>
+            <p class="subtitle fade-in">Today is all about celebrating you and the joy you bring to my life</p>
+            <div class="floating-hearts">
+                <div class="heart">❤️</div>
+                <div class="heart">💖</div>
+                <div class="heart">💗</div>
+                <div class="heart">💝</div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                Start the Celebration
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="gallery-grid">
+                <div class="photo-card" data-aos="fade-up" data-delay="100">
+                    <div class="photo-container">
+                        <img src="images/image_7.png" 
+                             alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">First Birthday wish and the way our friendship was started 🐵🤍</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                    <div class="photo-container">
+                        <img src="images/image_8.png" 
+                             alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Favorite Butterscotch ice cream with favorite person 🍨💖</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                    <div class="photo-container">
+                        <img src="images/image_3.jpg"
+                             alt="Happy times">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Mirror capture 📸</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                    <div class="photo-container">
+                        <img src="images/image_5.jpg"
+                             alt="Love moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Second selfie 📸 cheesy smile 😁</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="images/image_2.jpg"
+                             alt="Love moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">First selfie with favorite animal 🐾😉</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="600">
+                    <div class="photo-container">
+                        <img src="images/image_6.jpg"
+                             alt="Romantic moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Beautiful moment together 🌹</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message Section -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card">
+                <h2 class="message-title">A Special Message for You</h2>
+                <div class="message-content">
+                    <p class="message-text fade-in-text">
+                        Eroju ki mana friendship start ayi 3 years complete ayindhi, its been so special to me,
+                        neelanti oka good caring loving person na life lo undatam, i felt so lucky.
+                        ee 3 years journey lo naku chala supportive ga undi, netho special moments create chesukunela 
+                        chesinandhuku chala chala thanks.
+                    </p>
+                    <p class="message-text fade-in-text">
+                        Mana ee journey lo missunderstandings vachinappatiki, arguments vachinappatiki at the end of the day 
+                        malli understand chesukoni solve chesukuntam.. yeppatiki elane ardham chesukuntuu undali..
+                         I am so grateful for your patience, understanding, and the way you always find a way to make
+                          things right between us. 
+                        I wish manam yeppatiki elane okarini okaram support chesukuntuu, happy ga, as a best friends la undali.
+                        Life lo yenni ups and downs vachina, you have to be strong and keep smiling.
+                    </p>
+                    <p class="message-signature fade-in-text">
+                        Happy Birthday, pichoda ! You are so special to me ! 
+                        Here's to many more years of laughter, love, and beautiful memories
+                        together.
+                    </p>
+                </div>
+                <button class="secret-btn"
+                    onclick="window.location.href='letter.html'">
+                     💌 Open Secret Letter
+                </button>
+                <div class="message-hearts">
+                    <span class="heart-animation">❤️</span>
+                    <span class="heart-animation">💖</span>
+                    <span class="heart-animation">💗</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Your Butterfly 🦋 made with lots of love for the most amazing person in the world</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+<!-- Background Music -->
+<audio id="birthdaySong" loop>
+    <source src="song_1.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+</audio>
+
+<!-- Music Toggle Button -->
+<button id="musicBtn" class="music-btn">
+    ❤️ Our Song 🎶
+</button>
+</html>
