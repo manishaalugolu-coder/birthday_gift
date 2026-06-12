@@ -527,3 +527,77 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(255, 107, 107, 0.4);
 }
+
+.together-section{
+    padding:80px 20px;
+    background:linear-gradient(135deg,#ffd6e7,#ffe9f3,#fff5fa);
+    text-align:center;
+}
+
+.together-section h2{
+    font-family:'Dancing Script',cursive;
+    font-size:3rem;
+    color:#d63384;
+    margin-bottom:35px;
+}
+
+.together-card{
+    max-width:750px;
+    margin:auto;
+    background:rgba(255,255,255,0.9);
+    backdrop-filter:blur(10px);
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(255,105,180,.25);
+    border:2px solid #ffd1dc;
+}
+
+.together-card h3{
+    font-size:2rem;
+    color:#ff4d88;
+    margin-bottom:30px;
+}
+
+.counter{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.counter div{
+    min-width:120px;
+}
+
+.counter span{
+    display:block;
+    font-size:3rem;
+    font-weight:bold;
+    color:#ff4d88;
+}
+
+.counter p{
+    color:#777;
+    font-size:1.1rem;
+}
+
+.since-text{
+    margin-top:30px;
+    font-size:1.3rem;
+    color:#e91e63;
+    font-weight:500;
+}
+
+.extra-lines{
+    margin-top:25px;
+    font-size:1.1rem;
+    line-height:2;
+    color:#666;
+}
+
+/* Cute floating animation */
+.together-card:hover{
+    transform:translateY(-5px);
+    transition:.4s;
+    box-shadow:0 15px 40px rgba(255,105,180,.35);
+}
